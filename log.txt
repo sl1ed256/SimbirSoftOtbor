@@ -1,0 +1,80 @@
+июл 05, 2021 9:42:48 PM Main main
+INFO: Program has started
+июл 05, 2021 9:43:00 PM Main main
+INFO: Site read
+июл 05, 2021 9:43:12 PM Main main
+INFO: Path read
+июл 05, 2021 9:43:12 PM DownloadPage <init>
+INFO: Instance of the class is created
+июл 05, 2021 9:43:13 PM DownloadPage getWebPage
+INFO: Unable to get resource mostly 404 403
+июл 05, 2021 9:43:13 PM DownloadPage getURL
+INFO: First Page grabbed successfully
+июл 05, 2021 9:43:13 PM Main main
+INFO: Page downloaded
+июл 05, 2021 9:43:13 PM WordScanner <init>
+INFO: Instance of the class is created
+июл 05, 2021 9:43:13 PM Main main
+SEVERE: Exception: 
+java.io.IOException: Server returned HTTP response code: 403 for URL: https://www.simbirsoft.com/
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at java.net.URL.openStream(URL.java:1067)
+	at WordScanner.getStatistics(WordScanner.java:29)
+	at Main.main(Main.java:42)
+
+июл 05, 2021 9:44:20 PM Main main
+INFO: Program has started
+июл 05, 2021 9:44:22 PM Main main
+INFO: Site read
+июл 05, 2021 9:44:29 PM Main main
+INFO: Path read
+июл 05, 2021 9:44:29 PM DownloadPage <init>
+INFO: Instance of the class is created
+июл 05, 2021 9:44:30 PM DownloadPage getWebPage
+INFO: Response Code ... 200
+июл 05, 2021 9:44:30 PM DownloadPage getURL
+INFO: First Page grabbed successfully
+июл 05, 2021 9:44:30 PM Main main
+INFO: Page downloaded
+июл 05, 2021 9:44:30 PM WordScanner <init>
+INFO: Instance of the class is created
+июл 05, 2021 9:44:30 PM WordScanner getStatistics
+INFO: Page read
+июл 05, 2021 9:44:30 PM WordScanner getStatistics
+INFO: Text from the page received
+июл 05, 2021 9:44:30 PM WordScanner getStatistics
+INFO: Text divided into words
+июл 05, 2021 9:44:30 PM WordScanner getStatistics
+INFO: Word statistics calculated
+июл 05, 2021 9:44:30 PM WordScanner getStatistics
+INFO: Word statistics displayed
+июл 05, 2021 9:44:30 PM Main main
+INFO: Statistics received
+июл 05, 2021 9:48:23 PM Main main
+INFO: Program has started
+июл 05, 2021 9:48:35 PM Main main
+INFO: Site read
+июл 05, 2021 9:48:42 PM Main main
+INFO: Path read
+июл 05, 2021 9:48:42 PM DownloadPage <init>
+INFO: Instance of the class is created
+июл 05, 2021 9:48:42 PM DownloadPage getWebPage
+INFO: Unable to get resource mostly 404 403
+июл 05, 2021 9:48:42 PM DownloadPage getURL
+INFO: First Page grabbed successfully
+июл 05, 2021 9:48:42 PM Main main
+INFO: Page downloaded
+июл 05, 2021 9:48:42 PM WordScanner <init>
+INFO: Instance of the class is created
+июл 05, 2021 9:48:43 PM Main main
+SEVERE: Exception: 
+java.io.IOException: Server returned HTTP response code: 403 for URL: https://www.simbirsoft.com/
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at java.net.URL.openStream(URL.java:1067)
+	at WordScanner.getStatistics(WordScanner.java:29)
+	at Main.main(Main.java:42)
+
